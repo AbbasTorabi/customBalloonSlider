@@ -14,6 +14,8 @@
 		05C3B67B236961CF00A56CC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C3B679236961CF00A56CC5 /* LaunchScreen.storyboard */; };
 		05C3B686236961D000A56CC5 /* customBalloonSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C3B685236961D000A56CC5 /* customBalloonSliderTests.swift */; };
 		05C3B691236961D000A56CC5 /* customBalloonSliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C3B690236961D000A56CC5 /* customBalloonSliderUITests.swift */; };
+		05C3B69F236961EE00A56CC5 /* LineCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C3B69E236961EE00A56CC5 /* LineCanvas.swift */; };
+		05C3B6A12369620C00A56CC5 /* UpdateTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C3B6A02369620C00A56CC5 /* UpdateTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		05C3B68C236961D000A56CC5 /* customBalloonSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customBalloonSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C3B690236961D000A56CC5 /* customBalloonSliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customBalloonSliderUITests.swift; sourceTree = "<group>"; };
 		05C3B692236961D000A56CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05C3B69E236961EE00A56CC5 /* LineCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineCanvas.swift; sourceTree = "<group>"; };
+		05C3B6A02369620C00A56CC5 /* UpdateTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				05C3B670236961CE00A56CC5 /* AppDelegate.swift */,
 				05C3B672236961CE00A56CC5 /* ViewController.swift */,
+				05C3B69E236961EE00A56CC5 /* LineCanvas.swift */,
+				05C3B6A02369620C00A56CC5 /* UpdateTimer.swift */,
 				05C3B674236961CE00A56CC5 /* Main.storyboard */,
 				05C3B677236961CF00A56CC5 /* Assets.xcassets */,
 				05C3B679236961CF00A56CC5 /* LaunchScreen.storyboard */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05C3B6A12369620C00A56CC5 /* UpdateTimer.swift in Sources */,
 				05C3B673236961CE00A56CC5 /* ViewController.swift in Sources */,
 				05C3B671236961CE00A56CC5 /* AppDelegate.swift in Sources */,
+				05C3B69F236961EE00A56CC5 /* LineCanvas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
