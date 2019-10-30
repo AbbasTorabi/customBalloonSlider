@@ -37,6 +37,8 @@ class ViewController: UIViewController, UpdateTimer {
         
         valueCount = UILabel(frame: CGRect(x: 0, y: 10, width: 60, height: 21))
         valueCount.text = "0"
+        valueCount.font = UIFont.boldSystemFont(ofSize: 18.0)
+        valueCount.textColor = .white
         valueCount.textAlignment = .center
         
         canvasLine = LineCanvas(frame: CGRect(x: 20, y: 200, width: self.view.frame.width - 40, height: 4))
