@@ -1,4 +1,4 @@
 # customBalloonSlider
-swift custom canvas slider with animated balloon
+swift slider with custom animation and vector drawing
 
 ![](projDemo.gif)
