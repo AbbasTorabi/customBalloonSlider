@@ -1,4 +1,5 @@
 # customBalloonSlider
-swift slider with custom animation and vector drawing
+swift slider with balloon style
+Implemented by custom transform animations and vector drawing
 
 ![](projDemo.gif)
